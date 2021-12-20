@@ -1,0 +1,11 @@
+.backdrop_path {
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.overlay_background {
+    height: 100%;
+    background-image: linear-gradient(to right, rgba(9.41%, 23.92%, 34.90%, 1.00) 150px, rgba(9.41%, 23.92%, 34.90%, 0.84) 100%);;
+}
