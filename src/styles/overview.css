@@ -111,10 +111,6 @@ a.review-dec {
     right: 50%;
     color: white;
 }
-header{
-    height: 40px;
-    width: 100%;
-}
 .videos__item{
     display: inline-block;
     padding: 2px 10px;

@@ -6,3 +6,6 @@ export const RETRIEVE_MOVIES = "RETRIEVE_MOVIES";
 export const UPDATE_MOVIES = "UPDATE_MOVIES";
 export const DELETE_MOVIES = "DELETE_MOVIES";
 export const DELETE_ALL_MOVIES = "DELETE_ALL_MOVIES";
+
+// Auth
+export const AUTH_LOGIN = "AUTH_LOGIN";

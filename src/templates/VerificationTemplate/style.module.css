@@ -1,0 +1,9 @@
+.wrapper {
+    background-color: #fff;
+    font-weight: bold;
+    height: 100%;
+}
+
+.wrapper a {
+    color: rgb(255, 38, 0);
+}

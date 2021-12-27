@@ -1,0 +1,13 @@
+export { default as HomePage } from './HomePage';
+export { default as FilterPage } from './FilterPage';
+export { default as MoviePage } from './MoviePage';
+export { default as LoginPage } from './LoginPage';
+export { default as SingUpPage } from './SignUpPage';
+export { default as VerificationPage } from './VerificationPage';
+export { default as ProfilePage } from './ProfilePage';
+// // export { default as CreateJobPage } from './CreateJobPage';
+// export { JobsPage } from './JobPage';
+// // export { default as CreateJobSuccessPage } from './CreateJobSuccessPage';
+// // export { default as CompanyPage } from './companies/view';
+// // export { default as MessagesPage } from './messages/view/Messages';
+// // export { default as RatingPage } from './rating/view/Rating';

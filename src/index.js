@@ -15,12 +15,21 @@ import store from './store/store'
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+// ReactDOM.render(
+//   <Provider store={store}>
+//     <App />
+//   </Provider>,
+//   // <React.StrictMode>
+//   // </React.StrictMode>,
+//   document.getElementById('root')
+// );
+
 ReactDOM.render(
   <Provider store={store}>
-    <App />
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>
   </Provider>,
-  // <React.StrictMode>
-  // </React.StrictMode>,
   document.getElementById('root')
 );
 

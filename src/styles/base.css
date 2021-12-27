@@ -20,7 +20,7 @@ html{
     --rating-color-no:white;
 }
 .main{
-    background-color: var(--primary-color);
+    background-color: #000;
 }
 .header__menu-nav{
     padding-left: 0;
@@ -165,4 +165,8 @@ html{
 
 .image {
     object-fit: cover;
+}
+
+.p-error {
+    color: red;
 }
