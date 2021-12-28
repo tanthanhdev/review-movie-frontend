@@ -263,7 +263,7 @@
 }
 
 .header__list-mobile-tablet-item{
-    color: var(--text-color);
+    color: #fff;
     font-size: 1rem;
     line-height: 2.6rem;
     text-align: center;
