@@ -99,7 +99,7 @@ const ProfileTemplate = () => {
                   </div>
                   <div className="text-center">
                     <h3>
-                      {user.first_name} {user.last_name}<span className="font-weight-light">, </span>
+                      {user.first_name ? user.first_name : ''} {user.last_name ? user.last_name : ''}<span className="font-weight-light">, </span>
                     </h3>
                     <div className="h5 font-weight-300">
                       <i className="ni location_pin mr-2"></i>{user.city}, {user.country}

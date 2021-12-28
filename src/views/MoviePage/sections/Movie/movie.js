@@ -211,8 +211,8 @@ export default function Movie() {
                                 <div className={styles.reviews_post}>
                                     <form onSubmit={handleSubmit(onSubmit)}>
                                         <span>Full Name: </span> 
-                                        <span for="fname">{user.first_name} </span>
-                                        <span for="lname">{user.last_name}</span>
+                                        <span for="fname">{user.first_name ? user.first_name : ''} </span>
+                                        <span for="lname">{user.last_name ? user.last_name : ''}</span>
 
                                         <div className="row">
                                             <div className="col">
